@@ -1,0 +1,18 @@
+# shadow builds
+
+/shadow-builds
+
+# binaries folder
+
+/binaries
+
+# builds of each main project
+
+/cm-lib/builds
+
+/cm-tests/builds
+
+/cm-ui/builds
+
+# Mac OS DS_store
+.DS_Store
