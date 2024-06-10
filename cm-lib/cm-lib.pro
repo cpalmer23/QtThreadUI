@@ -15,13 +15,15 @@ CONFIG += c++17
 
 SOURCES += \
     client.cpp \
-    mastercontroller.cpp
+    mastercontroller.cpp \
+    timer.cpp
 
 HEADERS += \
     cm-lib_global.h \
     client.h \
     mastercontroller.h \
-    navigation-controller.h
+    navigation-controller.h \
+    timer.h
 
 # Default rules for deployment.
 unix {

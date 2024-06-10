@@ -12,6 +12,10 @@ class CMLIB_EXPORT MasterController : public QObject
 public:
     QString welcomeMessage = "This is MasterController to Major Tom";
     explicit MasterController(QObject* parent = nullptr);
+
+signals:
+    //void startTimer();
+
 };
 }}
 
